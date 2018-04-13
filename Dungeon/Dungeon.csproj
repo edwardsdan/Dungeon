@@ -42,6 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Player\Archer.cs" />
+    <Compile Include="Player\Cleric.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Player\Knight.cs" />
+    <Compile Include="Player\Mage.cs" />
+    <Compile Include="Player\Monk.cs" />
+    <Compile Include="Player\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

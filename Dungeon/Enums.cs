@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dungeon.Player
+namespace Dungeon
 {
     public enum Race { human = 0, elf, orc, dwarf, hobbit, goblin }
     public enum ArcherWeapon { bow = 0, crossbow }
