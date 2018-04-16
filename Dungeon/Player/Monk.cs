@@ -8,5 +8,6 @@ namespace Dungeon.Player
 {
     class Monk : Player
     {
+        public MonkWeapon Weapon { get; set; }
     }
 }

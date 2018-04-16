@@ -9,5 +9,6 @@ namespace Dungeon.Player
     class Knight : Player
     {
         public int Shield { get; set; }
+        public KnightWeapon Weapon { get; set; }
     }
 }
