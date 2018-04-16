@@ -13,4 +13,5 @@ namespace Dungeon
     public enum MageWeapon { wand = 1, staff, spellbook }
     public enum ClericWeapon { mace = 1, flail, club }
     public enum DamageType { physical = 1, fire, ice, lightning, arcane }
+    public enum MonsterType { dragon = 1, demon, slime, hobgoblin, mindflayer, rogue }
 }
