@@ -8,7 +8,7 @@ namespace Dungeon.Monster
 {
     class Monster
     {
-        public string Name { get; set; }
+        public MonsterType Name { get; set; }
         public int Health { get; set; }
         public int Armor { get; set; }
         public int Strength { get; set; }

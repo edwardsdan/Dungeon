@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Monster\Monster.cs" />
     <Compile Include="Player\Archer.cs" />
     <Compile Include="Player\Cleric.cs" />
     <Compile Include="Enums.cs" />
