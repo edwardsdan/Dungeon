@@ -9,6 +9,7 @@ namespace Dungeon.Player
     class Cleric : Player
     {
         public int Shield { get; set; }
-        public ClericWeapon Weapon { get; set; }
+        public Flail MainHand { get; set; }
+        public Spellbook OffHand { get; set; }
     }
 }

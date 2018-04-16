@@ -8,6 +8,7 @@ namespace Dungeon.Player
 {
     class Archer : Player
     {
-        public ArcherWeapon Weapon { get; set; }
+        public Bow MainHand { get; set; }
+        public Sword OffHand { get; set; }
     }
 }

@@ -8,6 +8,7 @@ namespace Dungeon.Player
 {
     class Mage : Player
     {
-        public MageWeapon Weapon { get; set; }
+        public Wand MainHand { get; set; }
+        public Spellbook OffHand { get; set; }
     }
 }

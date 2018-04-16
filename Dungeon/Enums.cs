@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace Dungeon
 {
     public enum PlayerRace { human = 1, elf, orc, dwarf, hobbit, goblin }
-    public enum ArcherWeapon { bow = 1, crossbow }
-    public enum KnightWeapon { sword = 1, mace, axe, flail }
-    public enum MonkWeapon { battlestaff = 1, chain, fist, khatar }
-    public enum MageWeapon { wand = 1, staff, spellbook }
-    public enum ClericWeapon { mace = 1, flail, club }
-    public enum DamageType { physical = 1, fire, ice, lightning, arcane }
-    public enum MonsterType { dragon = 1, demon, slime, hobgoblin, mindflayer, rogue }
+    public enum Bow { bow = 1, crossbow, longbow }
+    public enum Sword { sword = 1, shortsword, dagger, claymore }
+    public enum Flail { flail = 1, axe, hammer, mace }
+    public enum Wand { wand = 1, staff, rod }
+    public enum Spellbook { fire = 1, ice, lightning, holy, arcane }
+    public enum Fist { fist, battlestaff, khatar}
+    public enum MonsterType { dragon = 1, demon, slime, hobgoblin, mindflayer }
 }
